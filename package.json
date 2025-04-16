@@ -1,14 +1,13 @@
 {
-  "name": "mozzarella-online-server",
+  "name": "mozzarella-server",
   "version": "1.0.0",
-  "description": "Mozzarella Cheese Game WebSocket/WebRTC signaling server",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "uuid": "^9.0.0",
-    "ws": "^8.13.0"
+    "ws": "^8.13.0",
+    "uuid": "^9.0.0"
   }
 }
